@@ -15,24 +15,24 @@ Por fim, responda as questões abaixo no seu `fork`:
   
 3. Explicação: 
 
-Esse gráfico (LOC) mostra a evolução da densidade total do código ao longo do tempo, medida como a quantidade de linhas de código no projeto do Express, entre 2020 e 2025. Nele é possível observar uma estabilidade de 2020 até o início de 2022. A partir desse ponto houve um aumento de 20.861 para 23.279 e depois, a partir de 2024, teve a diminuição de 23.309 para 21.265.
+Esse gráfico (LOC) mostra a evolução da densidade total do código ao longo do tempo, medida como a quantidade de linhas de código no projeto do Express, entre 2020 e 2025. Nele é possível observar uma estabilidade entre 2020 e o início de 2022. A partir desse ponto houve um aumento de 20.861 para 23.279 linhas e, depois, a diminuição de 23.309 para 21.265 a partir de 2024.
 
 ![image](https://github.com/user-attachments/assets/ae9bf7a0-0c54-4b7b-9f0b-e7bd7e1046e0)
 
-Ao comparar essas mudanças com os outros gráficos como o "Conditionals", "Loops", "Functions", "Exceptions" e "Comments", verificamos que o padrão é similar, com aumento a partir de 2022 e diminuição a partir de 2024.
+Ao comparar essas mudanças com os outros gráficos como o "Conditionals", "Loops", "Functions", "Exceptions" e "Comments", é perceptível a similaridade do padrão, com aumento a partir de 2022 e diminuição a partir de 2024.
 
-As curvas indicadas no GitEvo do repositório Express, exibem um padrão de boas práticas, uma vez que mantêm a estabilidade e complexidade. Além disso, mesmo com o pequeno aumento de complexidade, em 2022, o gráfico mostrou a busca por boas práticas por parte da equipe e a posterior redução dessa complexidade, a partir de 2024.
+As curvas indicadas no GitEvo do repositório Express, demonstram um padrão alinhado a boas práticas, uma vez que mantêm a densidade do código. Apesar do aumento registrado em 2022, o gráfico evidenciou a busca por melhorias, por parte da equipe, e a posterior redução dessa complexidade, a partir de 2024.
 
-Realizei a consulta de commits, alterações e atualizações nos docs do repositório, para a melhor análise das mudanças. Assim, verifiquei o seguinte gráfico de frequência de código do repositório nos períodos observados do GitEvo:
+Realizei a consulta de commits, alterações e atualizações nos docs do repositório, para a melhor análise das mudanças. Assim, o seguinte gráfico de frequência de código do repositório foi utilizado como referência para os períodos observados no GitEvo:
 
 ![Code frequency](https://github.com/user-attachments/assets/829e00ea-fef5-4e59-8be8-76773196241b)
 
-Foi possível perceber uma adição de linhas em março de 2022, e uma posterior série de alterações a partir de 2024. Em 2022, no docs de histórico (4.18.0 / 2022-04-25), verifiquei que foram modificadas e corrigidas diversas dependências, além de outras partes do código. Ademais, verificando a lista de commits no período de Março, percebi a implementação e modificação de testes, que podem ter contribuído no aumento de LOC, como em:
+Foi possível perceber uma adição de linhas em março de 2022, seguida por uma série de alterações a partir de 2024. Em 2022, conforme o changelog da versão (4.18.0 / 2022-04-25), diversas dependências foram modificadas e corrigidas, além de outras partes do código. Ademais, verificando a lista de commits no período de Março, observei a implementação e modificação de testes, que podem ter contribuído no aumento de LOC, como em:
 
 - https://github.com/expressjs/express/commit/03dc3671874b214f67dacaca90f39a1c389f822e
 - https://github.com/expressjs/express/commit/291993d73c0c92c1ccce2dad264c86bdd1b4fe4b.
 
-Em relação a 2024, período que houve a diminuição de LOC e uma leve diminuição no gráfico selecionado para análise, verifiquei commits que faziam a limpeza e remoção de código, atualização de dependências e de arquivos de workflow, e atualizações na documentação. Podemos observar os commits:
+Em relação a 2024, período que houve a diminuição de LOC e uma leve diminuição no gráfico selecionado para análise, verifiquei commits que faziam a limpeza e remoção de código, atualização de dependências e de arquivos de workflow, e atualizações na documentação. Podemos observar alguns exemplos:
 
 - https://github.com/expressjs/express/commit/4e92ac903194b705a121ec49103fd9fcd779a42b
 - https://github.com/expressjs/express/commit/bdd81f8670975ef30fd49e92513ef48d35029eaf
