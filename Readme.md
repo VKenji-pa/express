@@ -1,3 +1,46 @@
+# Exercício - UFMG - Engenharia de Software 2
+
+Victor Kenji P Abeki - 2020007090
+
+Para responder este exercício, primeiramente, você deve fazer um `fork` deste repositório.
+No Moodle, você deve submeter apenas a URL do seu `fork`.
+
+Em seguida, adicione o arquivo gerado `index.html` no seu fork.
+
+Por fim, responda as questões abaixo no seu `fork`: 
+
+1. Repositório selecionado: https://github.com/expressjs/express
+
+2. Gráfico selecionado: LOC / JavaScript files
+  
+3. Explicação: 
+
+Esse gráfico (LOC / JavaScript files) mostra a evolução da densidade do código ao longo do tempo, medida como a quantidade média de linhas de código por arquivo JavaScript no projeto do Express, entre 2020 e 2025. Nele é possível observar uma estabilidade inicial de 2020 até o início de 2022. A partir desse ponto houve um aumento de 137,7 para 152,2 e depois, a partir de 2024, começou uma leve diminuição.
+
+![image](https://github.com/user-attachments/assets/6b92894a-355f-4f66-861e-7d0008957782)
+
+Ao comparar essas mudanças com os outros gráficos como o "Conditionals", "Loops", "Functions", "Exceptions" e "Comments", verificamos que o padrão é similar, com aumento a partir de 2022 e diminuição a partir de 2024.
+
+As curvas indicadas no GitEvo do repositório Express, exibem um padrão de boas práticas, uma vez que mantêm a estabilidade e complexidade. Além disso, mesmo com o pequeno aumento de complexidade, em 2022, o gráfico mostrou a busca por boas práticas e a posterior redução dessa complexidade, a partir de 2024.
+
+Realizei a consulta de commits, alterações e atualizações nos docs do repositório, para a melhor análise das mudanças. Assim, verifiquei o seguinte gráfico de frequência de código do repositório nos períodos observados do GitEvo:
+
+![Code frequency](https://github.com/user-attachments/assets/829e00ea-fef5-4e59-8be8-76773196241b)
+
+Foi possível perceber uma adição de linhas em março de 2022, e uma posterior série de alterações a partir de 2024. Em 2022, no docs (4.18.0 / 2022-04-25), verifiquei que foram modificadas e corrigidas diversas dependências, além de outras partes do código. Ademais, verificando a lista de commits no período de Março, percebi a implementação e modificação de testes, que podem ter contribuído no aumento de LOC, como em:
+
+- https://github.com/expressjs/express/commit/03dc3671874b214f67dacaca90f39a1c389f822e
+- https://github.com/expressjs/express/commit/291993d73c0c92c1ccce2dad264c86bdd1b4fe4b.
+
+Em relação a 2024, período que houve a diminuição de LOC e uma leve diminuição no gráfico selecionado para análise, verifiquei commits que faziam a limpeza e remoção de código, atualização de dependências e de arquivos de workflow, e atualizações na documentação. Podemos observar os commits:
+
+- https://github.com/expressjs/express/commit/4e92ac903194b705a121ec49103fd9fcd779a42b
+- https://github.com/expressjs/express/commit/bdd81f8670975ef30fd49e92513ef48d35029eaf
+- https://github.com/expressjs/express/commit/6c98f80b6ac95b90cff5da6857be4fe21d5e9c4e
+- https://github.com/expressjs/express/commit/63992bb1d7da401cdf7dfbb9d45d99c63b69c0e6
+
+## 
+
 [![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](https://expressjs.com/)
 
 **Fast, unopinionated, minimalist web framework for [Node.js](https://nodejs.org).**
