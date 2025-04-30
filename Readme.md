@@ -11,23 +11,23 @@ Por fim, responda as questões abaixo no seu `fork`:
 
 1. Repositório selecionado: https://github.com/expressjs/express
 
-2. Gráfico selecionado: LOC / JavaScript files
+2. Gráfico selecionado: Lines of Code (LOC)
   
 3. Explicação: 
 
-Esse gráfico (LOC / JavaScript files) mostra a evolução da densidade do código ao longo do tempo, medida como a quantidade média de linhas de código por arquivo JavaScript no projeto do Express, entre 2020 e 2025. Nele é possível observar uma estabilidade inicial de 2020 até o início de 2022. A partir desse ponto houve um aumento de 137,7 para 152,2 e depois, a partir de 2024, começou uma leve diminuição.
+Esse gráfico (LOC) mostra a evolução da densidade total do código ao longo do tempo, medida como a quantidade de linhas de código no projeto do Express, entre 2020 e 2025. Nele é possível observar uma estabilidade de 2020 até o início de 2022. A partir desse ponto houve um aumento de 20.861 para 23.279 e depois, a partir de 2024, teve a diminuição de 23.309 para 21.265.
 
-![image](https://github.com/user-attachments/assets/6b92894a-355f-4f66-861e-7d0008957782)
+![image](https://github.com/user-attachments/assets/ae9bf7a0-0c54-4b7b-9f0b-e7bd7e1046e0)
 
 Ao comparar essas mudanças com os outros gráficos como o "Conditionals", "Loops", "Functions", "Exceptions" e "Comments", verificamos que o padrão é similar, com aumento a partir de 2022 e diminuição a partir de 2024.
 
-As curvas indicadas no GitEvo do repositório Express, exibem um padrão de boas práticas, uma vez que mantêm a estabilidade e complexidade. Além disso, mesmo com o pequeno aumento de complexidade, em 2022, o gráfico mostrou a busca por boas práticas e a posterior redução dessa complexidade, a partir de 2024.
+As curvas indicadas no GitEvo do repositório Express, exibem um padrão de boas práticas, uma vez que mantêm a estabilidade e complexidade. Além disso, mesmo com o pequeno aumento de complexidade, em 2022, o gráfico mostrou a busca por boas práticas por parte da equipe e a posterior redução dessa complexidade, a partir de 2024.
 
 Realizei a consulta de commits, alterações e atualizações nos docs do repositório, para a melhor análise das mudanças. Assim, verifiquei o seguinte gráfico de frequência de código do repositório nos períodos observados do GitEvo:
 
 ![Code frequency](https://github.com/user-attachments/assets/829e00ea-fef5-4e59-8be8-76773196241b)
 
-Foi possível perceber uma adição de linhas em março de 2022, e uma posterior série de alterações a partir de 2024. Em 2022, no docs (4.18.0 / 2022-04-25), verifiquei que foram modificadas e corrigidas diversas dependências, além de outras partes do código. Ademais, verificando a lista de commits no período de Março, percebi a implementação e modificação de testes, que podem ter contribuído no aumento de LOC, como em:
+Foi possível perceber uma adição de linhas em março de 2022, e uma posterior série de alterações a partir de 2024. Em 2022, no docs de histórico (4.18.0 / 2022-04-25), verifiquei que foram modificadas e corrigidas diversas dependências, além de outras partes do código. Ademais, verificando a lista de commits no período de Março, percebi a implementação e modificação de testes, que podem ter contribuído no aumento de LOC, como em:
 
 - https://github.com/expressjs/express/commit/03dc3671874b214f67dacaca90f39a1c389f822e
 - https://github.com/expressjs/express/commit/291993d73c0c92c1ccce2dad264c86bdd1b4fe4b.
